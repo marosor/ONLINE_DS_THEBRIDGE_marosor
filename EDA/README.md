@@ -1,9 +1,5 @@
 ### Análisis de los datos de los festivales artísticos de Barcelona 2013-2022
 ===
-Abstract:xxx
-## Papar Information
-- Title:  ### Análisis de los datos de los festivales artísticos de Barcelona 2013-2022
-- Authors:  Marcela Rosemberg Oro
 
 Estudio de las características de los festivales culturales de la ciudad de Barcelona en el período comprendido entre 2013 y 2022.
 
@@ -20,3 +16,7 @@ Para ello:<br>
 Además, estudiaré la posible relación entre estas variables, año por año y en la década en conjunto, atendiendo a peculiaridades, elementos comunes, tendencias y excepciones.
 
 La fuente de los datos es el propio [Ayuntamiento de Barcelona en su portal de datos abiertos](https://opendata-ajuntament.barcelona.cat/data/es/dataset/dades-festivals)
+
+## Papar Information
+- Title:  ### Análisis de los datos de los festivales artísticos de Barcelona 2013-2022
+- Authors:  Marcela Rosemberg Oro
