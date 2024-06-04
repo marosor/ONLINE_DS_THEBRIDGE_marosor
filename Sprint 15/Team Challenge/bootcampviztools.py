@@ -112,13 +112,13 @@ def plot_categorical_numerical_relationship(df, categorical_col, numerical_col, 
     grouped_data = grouped_data.sort_values(ascending=False)
 
     # Si hay más de 5 categorías, las divide en grupos de 5
-    if grouped_data.shape[0] > 5:
+    if grouped_data.shape[0] > 15:
         unique_categories = grouped_data.index.unique()
-        num_plots = int(np.ceil(len(unique_categories) / 5))
+        num_plots = int(np.ceil(len(unique_categories) / 15))
 
         for i in range(num_plots):
             # Selecciona un subconjunto de categorías para cada gráfico
-            categories_subset = unique_categories[i * 5:(i + 1) * 5]
+            categories_subset = unique_categories[i * 15:(i + 1) * 15]
             data_subset = grouped_data.loc[categories_subset]
 
             # Crea el gráfico
